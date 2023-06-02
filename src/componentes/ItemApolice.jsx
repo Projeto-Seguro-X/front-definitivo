@@ -96,7 +96,7 @@ function ItemApolice(props) {
         )}
       </div>
 
-      <BuscaCobertura info={props.info.cobertura} />
+      <BuscaCobertura info={props?.info?.cobertura} />
     </Paper>
   );
 }
